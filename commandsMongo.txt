@@ -1,0 +1,6 @@
+-- primeira porta é a local
+-- -d não trava console
+
+docker run --name mongo -p 227017:27017 -d mongo
+
+
